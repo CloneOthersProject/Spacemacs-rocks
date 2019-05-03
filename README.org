@@ -2097,6 +2097,11 @@ company-dabbrev-code: 类似于 company-dabbrev, 但是 dabbrev 对代码和注�
         '(("melpa-cn" . "http://elpa.zilongshanren.com/melpa/")
           ("org-cn"   . "http://elpa.zilongshanren.com/org/")
           ("gnu-cn"   . "http://elpa.zilongshanren.com/gnu/")))
+	  改成这个了
+	  (setq configuration-layer-elpa-archives
+           '(("melpa-cn" . "http://elpa.emacs-china.org/melpa/")
+           ("org-cn"   . "http://elpa.emacs-china.org/org/")
+          ("gnu-cn"   . "http://elpa.emacs-china.org/gnu/")))	
 #+END_SRC
 
 重新启动 emacs, 等待 Spacemacs 完成安装即可.
